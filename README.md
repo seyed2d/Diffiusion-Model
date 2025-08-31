@@ -35,16 +35,10 @@ You can download the dataset here:
 To train the diffusion model, run:
 ```bash
 !python /content/main.py -c /content/config.json -t train
-
-## Image Generation
+```
+### Image Generation
 
 To generate new face images using a trained checkpoint, run:
 
 ```bash
 python main.py -c config.json -t generate
-
-## Configuration
-
-The configuration file (`config.json`) contains all hyperparameters for UNet, diffusion process, training, and generation.
-
-- Make sure to adjust paths for checkpoints and outputs according to your environment.
