@@ -41,4 +41,4 @@ To train the diffusion model, run:
 To generate new face images using a trained checkpoint, run:
 
 ```bash
-python main.py -c config.json -t generate
+!python /content/main.py -c /content/config.json -t generate
