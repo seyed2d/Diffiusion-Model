@@ -8,15 +8,15 @@
         "beta_T": 0.02
     },
     "train_config": {
-        "output_directory": "model/utkface",
+        "output_directory": "./checkpoints",  
         "ckpt_epoch": "max",
-        "n_epochs": 200,                   
+        "n_epochs": 200,
         "learning_rate": 1e-4,
         "batch_size": 64
     },
     "gen_config": {
-        "output_directory": "plots/utkface",
-        "ckpt_path": "model/utkface",
+        "output_directory": "./checkpoints",  
+        "ckpt_path": "./checkpoints",  
         "ckpt_epoch": "max",
         "n": 16
     }
